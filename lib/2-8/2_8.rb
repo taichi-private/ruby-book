@@ -68,3 +68,7 @@ puts sample_text2
 puts sample_text3
 puts a
 puts b #upcaseメソッドは小文字を大文字にするメソッド
+puts sprintf('%0.3f', 1.2)  #小数点第3位まで数字を表示する文字列を作成する(以下のように省略して書くことも可)
+puts '%0.3f' % 1.2
+puts sprintf('%0.3f + %0.3f', 1.2, 0.48) #このように複数渡すこともできる
+puts '%0.3f + %0.3f' % [1.2, 0.48]
